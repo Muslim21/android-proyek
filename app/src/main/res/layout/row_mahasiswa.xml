@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="1dp"
+        app:cardCornerRadius="7dp"
+        android:layout_margin="3dp">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/background2"
+                android:id="@+id/imgpenghuni"
+                android:layout_width="150dp"
+                android:layout_height="135dp" />
+
+            <TextView
+                android:id="@+id/listNama"
+                android:layout_toRightOf="@+id/imgpenghuni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama "
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/listID"
+                    android:paddingTop="10dp"
+                    android:layout_toRightOf="@+id/imgpenghuni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Keterangan"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/listAlamat"
+                    android:paddingTop="20dp"
+                    android:layout_toRightOf="@+id/imgpenghuni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Keterangan"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/listNamaOrangtua"
+                    android:paddingTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@+id/imgpenghuni"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+
+                    android:text="Keterangan"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/listNoHp"
+                    android:paddingTop="40dp"
+                    android:layout_toRightOf="@+id/imgpenghuni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:text="Keterangan"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/listThnMasuk"
+                    android:paddingTop="50dp"
+                    android:layout_toRightOf="@+id/imgpenghuni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="Keterangan"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/listStatsMsk"
+                    android:paddingTop="60dp"
+                    android:layout_toRightOf="@+id/imgpenghuni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45dp"
+                    android:text="Keterangan"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/listNamaKmpus"
+                    android:paddingTop="70dp"
+                    android:layout_toRightOf="@+id/imgpenghuni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text="Keterangan"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <!--<TextView-->
+                <!--android:id="@+id/listID1"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:visibility="gone" />-->
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
